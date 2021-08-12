@@ -1,11 +1,11 @@
-const name = [1, 5, 8, 4, 1, 4, 5];
-var uniqueName = [];
+var student = [1, 5, 8, 4, 1, 4, 5];
+var uniqueStudent = [];
 
-for(var i = 0; i < name.length; i++) {
-    var element = name[i];
-    var index = uniqueName.indexOf(element);
+for(var i = 0; i < student.length; i++) {
+    var element = student[i];
+    var index = uniqueStudent.indexOf(element);
     if(index == -1){
-        uniqueName.push(element);
+        uniquestudent.push(element);
     }
 }
-console.log(uniqueName);
+console.log(uniqueStudent);
